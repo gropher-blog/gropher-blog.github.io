@@ -1,0 +1,16 @@
+<p>上次升级wp的时候就遇到了乱码的问题，误打误撞的解决了。</p>
+
+<p>这次升级到2.3又是同样的问题，找到了一个插件，叫做<a href="http://g30rg3x.com/utf8-database-converter/">UTF-8 Database Converter</a>，可以搞定中文乱码的问题。</p>
+
+<p>使用的方法：</p>
+
+<p>再升级前（比如2.2版的wp），修改wp-config.php文件，设置DB_CHARSET 为 utf8， 再设置DB_COLLATE为空。（新版wp默认的设置）。</p>
+
+<p>然后上传插件到/wp-content/plugins/目录下。（这时blog有可能一进变为乱码了）</p>
+
+<p>进入wp的后台－插件，然后启用这个插件。</p>
+
+<p>之后，进入’UTF-8 Database Converter’ 这个菜单，点击那个按钮运行就可以了。</p>
+
+<p>省心了现在，哈哈。</p>
+

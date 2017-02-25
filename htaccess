@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://gropher.net.*$     [NC]
+RewriteCond %{HTTP_REFERER} !^http://photoshop.gropher.net.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://blog.gropher.net.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://lab.gropher.net.*$ [NC]
+RewriteRule .*\.(gif|GIF|jpg|JPG|jpeg|JPEG|bmp|BMP|png|PNG)$ http://gropher.net/stophotlinking.xjpg [R,NC]

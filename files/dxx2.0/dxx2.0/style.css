@@ -1,0 +1,385 @@
+/*
+Theme Name: DXX
+Theme URI: http://blog.gropher.net/wordpress/dxx-wordpress-theme-v20.htm
+Description: Clear & simple wordpress theme.
+Version: 2.0
+Wordpress Version: 2.1.3
+Author: gropher
+Author URI: http://gropher.net/
+
+The CSS, XHTML and design is released under Creative Commons Attribution-ShareAlike 2.5:
+http://creativecommons.org/licenses/by-sa/2.5/
+
+*/
+
+/*Typography & Colors */
+
+BODY {
+margin: 0px;
+padding: 0px;
+font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+color: gray; /*#959595;*/
+font-size: 12px;
+background-color: white;/*#f3f1e9;*/
+text-align:center;
+}
+
+#header{
+text-align: center;
+background-color: white;
+}
+
+#main{
+text-align: left;
+}
+
+#leftcontent{
+text-align:left;
+border-right:1px #cccccc solid;
+}
+
+#rightcontent{
+text-align:left;
+}
+
+#footer{
+font-size: 0.9em;
+text-align:left;
+border-top:1px #cccccc solid;
+}
+/*Typography & Colors ends*/
+
+/* Structure */
+BODY {
+margin: 0px;
+padding: 0px;
+}
+
+#header{
+margin: 0px;
+padding: 0px;
+width: 1000px; /*70%*/
+height: 85px;
+}
+
+#main{
+margin: 0px;
+padding: 10px 0 0 0;
+width: 1000px;
+}
+
+#leftcontent{
+float:left;
+width: 500px;
+max-width: 550px; /*non-IE*/
+margin-left:100px;
+padding-right:10px;
+overflow:hidden;
+}
+
+#rightcontent{
+float:left;
+width:285px;
+max-width: 300px; /*non-IE*/
+margin-left: 5px;
+padding-left: 0;
+overflow:hidden;
+}
+
+#footer{
+clear:both;
+width:1000px;
+margin:0px;
+padding-top: 10px;
+}
+/*Structure ends*/
+
+/*Header*/
+
+.headertitle{
+font-size: 3em;
+font-weight:bold;
+margin: 0px;
+padding:0px;
+padding-left:0px;
+padding-top:10px;
+}
+
+.headerlogo{
+padding-left:50px;
+width: 85px;
+height: 85px;
+border: 0px;
+text-align: left;
+}
+
+/*Header ends*/
+
+/*Leftcontent*/
+#leftcontent .posttitle{
+clear:both;
+font-family: Georgia, serif;
+font-size: 1.3em;
+font-weight: bold;
+line-height: 1.2em;
+letter-spacing: 2px;
+color: #693;
+margin: 0px;
+padding: 0 0 5px 0;
+}
+
+
+#leftcontent .postmetadata{
+clear:both;
+font-family: Georgia, serif;
+font-size: 0.8em;/*93%;*/
+font-weight: normal;
+line-height: 1em;
+text-align:left;
+color: #693;
+margin: 0;
+padding: 0 0 5px 0;
+}
+
+#leftcontent .postcontent{
+font-size: 0.9em;
+line-height: 1.8em;
+letter-spacing: 0.1em;
+color: gray; /*#959595;*/
+margin-left: 50px;
+margin-bottom:0px;
+padding-bottom:10px;
+}
+/*Leftcontent ends*/
+
+/*rightcontent*/
+#rightcontent h3{
+font-family: Georgia, serif;
+font-weight: bold;
+font-size: 93%;
+line-height: 1em;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #693;
+border-bottom: 0px solid #dbd5c5;
+width:100%;
+margin: 0 0 15px 0;
+padding: 0 0 3px 0;
+}
+
+#rightcontent ul li, #rightcontent ul ul li{
+font-size: 1em;
+list-style: none;
+letter-spacing: 0.1em;
+}
+
+#rightcontent ul li{
+margin-bottom: 15px;
+}
+
+#rightcontent ul ul li{
+margin-bottom: 3px;
+}
+/*rightcontent ends*/
+
+/*Footer*/
+#footer li{
+letter-spacing: 0.1em;
+font-size: 1em;
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+#credits{
+text-align:left;
+border-right: 1px solid #dbd5c5;
+float:left;
+width:49%;
+}
+
+#archives{
+text-align:left;
+float:left;
+width:49%;
+}
+
+/*Footer ends*/
+
+/*Links*/
+
+a:active{
+color: #326ea1;
+text-decoration: none;
+}
+
+a:link, a:visited {
+padding-bottom: 1px;
+color: #326ea1;
+text-decoration: none;
+}
+
+a:hover {
+padding-bottom: 0;
+color: #383d44;
+text-decoration: none;
+border-bottom: 2px solid #dbd5c5;
+}
+
+#leftcontent .postmetadata a:link,#leftcontent .postmetadata a:visited {
+font-family: Georgia, serif;
+font-size: 1em;/*93%;*/
+font-weight: normal;
+line-height: 1em;
+text-align:left;
+color: #693;
+padding-bottom: 1px;
+text-decoration: none;
+border-bottom: 0px solid #dbd5c5;
+}
+
+#leftcontent .postmetadata a:hover {
+font-family: Georgia, serif;
+font-size: 1em;/*93%;*/
+font-weight: normal;
+line-height: 1em;
+text-align:left;
+color: #693;
+padding-bottom: 0;
+text-decoration: none;
+border-bottom: 2px solid #dbd5c5;
+}
+
+/*Links ends*/
+
+/*Image*/
+.headerlogo{
+float:left;
+}
+
+.headerlogo:hover{
+border-bottom: 0px solid #fff;
+}
+
+img{
+margin: 5px 5px 5px 5px;
+padding: 2px 2px 2px 2px;
+border: 1px #000 solid;
+}
+
+img.headerimg{
+margin:0px;
+padding: 0px;
+border: 0px;
+}
+
+img.floatleft{
+float:left;
+margin: 5px 10px 5px 0;
+padding: 2px 2px 2px 2px;
+border: 1px #000 solid;
+clear:left;
+}
+
+img.floatright{
+float:right;
+margin: 5px 0px 5px 10px;
+padding: 2px 2px 2px 2px;
+border: 1px #000 solid;
+clear:right;
+}
+
+img.floatnone{
+float:none;
+margin: 5px 0px 5px 10px;
+padding: 2px 2px 2px 2px;
+border: 1px #000 solid;
+clear:both;
+}
+/*Image ends*/
+
+/*Comment*/
+
+#comment{
+width:80%;
+margin:0 20px 0 0;
+padding: 0 10px 0 0;
+}
+
+h3#comments, h3#respond{
+clear:both;
+font-family: Georgia, serif;
+font-size: 1em;
+font-weight: bold;
+line-height: 1.2em;
+letter-spacing: 1px;
+text-decoration: none;
+border-bottom: 0px solid #000;
+color: #693;
+margin-left: 0px;
+padding: 0 0 5px 0;
+}
+
+div.commenttext{
+padding-left: 20px;
+}
+/*Comment ends*/
+/*Navigation*/
+.navigation .alignleft{
+clear:both;
+float:left;
+margin-right:20px;
+margin-top:20px;
+}
+.navigation .alignright{
+float:left;
+margin-top:20px;
+}
+/*Navigation ends*/
+
+/*Form*/
+#author{
+border: 1px gray solid;
+}
+
+#email{
+border: 1px gray solid;
+}
+
+#url{
+border: 1px gray solid;
+}
+
+#comment{
+border: 1px gray solid;
+}
+
+input{
+border: 1px gray solid;
+}
+
+#submit{
+background-color: ;
+}
+/*Form ends*/
+
+/*Other Classes and Tags*/
+.pagetitle{
+font-family: Georgia, serif;
+font-size: 0.9em;
+font-weight: normal;
+line-height: 1em;
+letter-spacing: 1px;
+text-decoration: none;
+color: #693;
+}
+
+
+blockquote {
+border: 2px  solid #ddd;
+border-top: 11px solid #ddd;
+color: #777;
+margin: 15px 30px 0 30px;
+padding: 10px 10px 5px 10px;
+}
+/*Other Classes and Tags ends*/
